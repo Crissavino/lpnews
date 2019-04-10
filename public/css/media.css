@@ -1,0 +1,497 @@
+body{
+	background-color: #ebebeb;
+}
+
+.caja{
+	position: absolute;
+
+}
+
+.btn-contacto{
+	/*display: block;*/
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	background-color: #322e2c;
+}
+
+.texto-header{
+	position: absolute;
+	/*position: relative;*/
+    top: 20%;
+    /*bottom: 460px;*/
+    right: 40px;
+    /*left: -100px;*/
+    width: 235px;
+    text-align: right;
+    float: right;
+    margin-right: 20px;
+    /*transform: translate(100%, -130%);*/
+    font-family: 'Oswald', sans-serif;
+	font-weight: 100;
+	font-size: 40px;
+	color: rgba(34, 37, 41, 0.8);
+	/*vertical-align: middle;*/
+
+}
+
+.resaltado{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 600;
+	font-size: 38px;
+	color: white;
+}
+
+.sombreado{
+	-webkit-box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.6);
+	-moz-box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.6);
+	box-shadow: 10px 10px 30px 0px rgba(0,0,0,0.6);
+}
+
+.centrado-h-v{
+	display: flex;
+   	justify-content: center;
+   	align-items: center;
+}
+
+.h-2{
+	margin-bottom: 30px;
+    font-weight: 600;
+	text-align: center;
+	color: rgba(34, 37, 41, 0.8);
+	font-size: 32px;
+
+}
+
+.h-2w{
+	margin-top: 50px;
+	margin-bottom: 30px;
+    font-weight: 600;
+	text-align: center;
+	color: white;
+	font-size: 32px;
+
+}
+
+
+/*@media(max-width: 1024px){
+
+}
+
+@media(max-width: 920px){
+
+}
+
+@media(max-width: 780px){
+	
+
+
+}
+
+@media(max-width: 736px){
+
+}*/
+
+@media(min-width: 280px){
+	/*CSS HEADER*/
+	header{
+		display: block;
+	}
+
+		header .fondo-header{
+			overflow: hidden;
+			height: 600px;
+		}
+
+			header .fondo-header img{
+				width: 900px;
+    			transform: translate(-30%, 0%);
+			}	
+
+	/*CSS PARA EL ENLACE*/
+		.enlace-blanco{
+			font-family: 'Karla', sans-serif;
+			color: white;
+		    text-transform: uppercase;
+			font-weight: bold;
+			text-decoration: none;
+			line-height: 1.875rem;
+			font-size: 20px;
+		}
+
+		.enlace-blanco:hover{
+			color: #676c7b;
+			text-decoration: none;
+		}
+
+		.enlace-blanco:active{
+			text-decoration: none;
+			/*color: white;*/
+			color: #676c7b;
+
+		}
+	/*FIN CSS PARA EL ENLACE*/
+
+    header .menu nav .mobile-btn {
+      z-index: 100;
+	  /*margin: 50px auto 0px auto;*/
+	  margin-top: 15px;
+	  display: block;
+	  color: #000;
+	  height: 30px;
+	  width: 30px;
+	  border-top: 4px solid;
+	  position: absolute;
+	  left: 20px;
+	  cursor: pointer;
+	  -webkit-backface-visibility: hidden;
+	}
+
+	header .menu nav .mobile-btn::after, header .menu nav .mobile-btn::before {
+      z-index: 100;
+	  content: '';
+	  display: block;
+	  height: 4px;
+	  margin-top: 6px;
+	  background: currentColor;
+	  position: relative;
+	  transition: transform .3s ease;
+	}
+
+	header .menu nav .mobile-btn.active {
+      z-index: 100;
+	  border-top-color: transparent;
+	}
+
+	header .menu nav .mobile-btn.active::after {
+	  margin-top: 0px;
+      z-index: 100;
+	  top: 2px;
+	  transform: rotate(45deg);
+	}
+
+	header .menu nav .mobile-btn.active::before {
+      z-index: 100;
+	  margin-top: 0px;
+	  top: 6px;
+	  transform: rotate(135deg);
+	}
+
+	header .menu nav .menu-mobile {
+      	z-index: 100;
+		opacity: 0;
+		visibility: hidden;
+		text-align: center;
+		margin-top: 100px;
+		transform: translate3D(0, -50px, 0);
+		transition: .3s;
+	}
+
+		header .menu nav .menu-mobile ul{
+			padding-left: 0;
+		}
+
+		header .menu nav .menu-mobile.active ul{
+			padding-left: 0;
+		}
+
+	header .menu nav .menu-mobile ul li {
+		/*line-height: 1.4em;*/
+		font-family: 'Karla', sans-serif;
+	    font-size: 10px;
+	    line-height: 26px;
+	    font-weight: bold;
+	    font-style: normal;
+	    text-transform: uppercase;
+	    list-style: none;
+	}
+
+		header .menu nav .menu-mobile ul li a{
+			color: white;
+			/*padding: 20px;*/
+			text-decoration: none;
+		}
+
+	header .menu nav .menu-mobile.active {
+      	z-index: 100;
+		position: relative;
+		width: 70%;
+		/*right: 60px;*/
+		top: 15px;
+		display: block;
+	  	visibility: visible;
+	  	opacity: 1;
+	  	transform: translate3D(0, 0, 0);
+	  	/*background-color: red;*/
+	  	margin: auto;
+
+	}
+
+    header .menu nav .menu-desktop{
+        display: none;
+    }
+
+	/*FIN CSS HEADER*/
+
+	/*CSS INDEX*/
+		/*CSS ESTADISTICAS*/
+			.container .estadisticas{
+		   
+			}
+
+			.container .estadisticas .numResto,
+			.container .estadisticas .numPersonas,
+			.container .estadisticas .numAlcance{
+				margin: auto;
+				margin-top: 30px;
+				float: none;
+			}
+
+				.container .estadisticas .numResto span,
+				.container .estadisticas .numPersonas span,
+				.container .estadisticas .numAlcance span{ 
+			    	font-weight: 400;
+			    	/*float: left;*/
+			    	width: 100%;
+			    	display: inline-block;
+				    font-size: 55px;
+				    color: rgba(34, 37, 41, 0.8);
+				}
+
+				.container .estadisticas .numResto p,
+				.container .estadisticas .numPersonas p,
+				.container .estadisticas .numAlcance p{
+					text-align: left;
+					margin: 0;
+					font-family: 'Oswald', sans-serif;
+				    font-size: 20px;
+				    line-height: 26px;
+				    font-weight: 100;
+				    font-style: normal;
+				    color: rgba(34, 37, 41, 0.8);
+				    /*float: none;*/
+			    	width: 100%;
+			    	display: inline-block;
+				    clear: both;
+				}
+
+				
+		/*FIN CSS ESTADISTICAS*/
+
+		/*CSS FAQS*/
+			.faqs{
+				display: block;
+				width: 100%;
+				float: none;
+				margin: auto;
+				margin-top: 60px;
+			}
+
+				.faqs .pregunta{
+				
+				}
+
+					.faqs .pregunta h3{
+				    	font-weight: 600;
+				    	font-size: 26px;
+				    	color: rgba(34, 37, 41, 0.8);
+					}
+
+					.faqs .pregunta p{
+						font-family: 'Oswald', sans-serif;
+				    	font-size: 20px;
+				    	font-weight: lighter;
+				    	color: rgba(34, 37, 41, 0.8);
+					}
+		/*FIN CSS FAQS*/
+
+		/*CSS TESTIMONIOS*/
+			.testimonios{
+				margin-top: 40px;
+			}
+
+				.testimonios .empresa-persona{
+					margin-top: 40px;
+				}
+
+					.testimonios .empresa-persona img{
+						width: 25%;
+						float: left;
+					}
+
+		/*FIN CSS TESTIMONIOS*/
+
+		/*CSS COSTOS*/
+			.costos{
+			}
+
+				.costos .folleto{
+					/*width: 100%;*/
+				}
+
+					.costos .folleto img{
+						width: 100%;
+					}
+
+		/*FIN CSS COSTOS*/
+
+		/*CSS FOOTER*/
+
+			footer{
+				background-color: #322e2c;
+				height: 600px;
+				margin-top: 80px;
+			}
+
+				footer .icono{
+					text-align: center;
+					padding-top: 50px;
+				}
+
+					footer .icono img{
+						
+					}
+
+				footer .menu-footer{
+					display: block;
+					text-align: center;
+					padding-top: 20px;
+				}
+
+					footer .menu-footer ul{
+					}
+
+						footer .menu-footer ul li{
+							font-family: 'Oswald', sans-serif;
+						    font-size: 20px;
+						    line-height: 26px;
+						    font-weight: 100;
+						    font-style: normal;
+						    list-style: none;
+						    text-transform: uppercase;
+						    padding-top: 15px;
+						}
+
+							footer .menu-footer ul li a{
+						    	color: white;
+						    	text-decoration: none;
+
+							}
+
+				footer .contacto{
+					padding-top: 30px;
+					text-align: center;
+				}
+
+					footer .contacto {
+							color: white;
+						}
+
+							footer .contacto .links-contacto{
+								margin-top: 70px;
+							}
+
+								footer .contacto .links-contacto a{
+									text-decoration: none;
+									color: white;
+									padding: 15px;
+								}
+
+						
+
+							{
+								height: 150px !important;
+							}
+		/*FIN CSS FOOTER*/
+
+
+	/*FIN CSS INDEX*/
+}
+
+@media(min-width: 620px){
+	/*CSS HEADER*/
+		header .fondo-header{
+			overflow: hidden;
+			/*height: 100%;*/
+			width: 100%;
+		}
+
+			header .fondo-header img{
+				width: 100%;
+    			transform: translate(0%, 0%);
+			}
+
+			.texto-header{
+				position: absolute;
+			    top: 10%;
+			    right: 40px;
+			    width: 235px;
+			    text-align: right;
+			    float: right;
+			    margin-right: 20px;
+			    font-family: 'Oswald', sans-serif;
+				font-weight: 100;
+				font-size: 40px;
+				color: rgba(34, 37, 41, 0.8);
+			}
+	/*FIN CSS HEADER*/	
+}
+
+
+
+
+@media(min-width: 768px){
+
+	/*CSS INDEX*/
+
+		/*CSS TESTIMONIOS*/
+			.testimonios .empresa-persona{
+				display: inline-block;
+			}
+
+				.testimonios .empresa-persona img{
+					width: 150px;
+				}
+
+				.testimonios .empresa-persona p{
+					padding-top: 40px;
+				}
+		/*FIN CSS TESTIMONIOS*/
+
+		/*CSS COSTOS*/
+			.costos{
+			}
+
+				.costos .folleto{
+					/*width: 100%;*/
+				}
+
+					.costos .folleto img{
+						width: 100%;
+					}
+
+		/*FIN CSS COSTOS*/
+
+	/*FIN CSS INDEX*/
+
+}
+
+
+@media(min-width: 1024px){
+	
+	.texto-header{
+		position: absolute;
+	    top: 25%;
+	    right: 25%;
+	    width: 700px;
+	    text-align: center;
+	    float: none;
+		font-size: 60px;
+	}
+
+	.resaltado{
+		font-size: 60px;
+	}
+}
+
+
