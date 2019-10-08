@@ -14,7 +14,7 @@
 
 			<div class="numResto">
 				<span>1234</span>
-				<p>locales en La Plata</p>
+				<p>bares/restaurantes en La Plata</p>
 			</div>
 
 			<div class="numPersonas">
@@ -24,7 +24,7 @@
 
 			<div class="numAlcance">
 				<span>12341231</span>
-				<p>personas alcanzadas por LP News</p>
+				<p>tu <strong>publicidad llega a esta cantidad de personas</strong></p>
 			</div>
 		</section>
 

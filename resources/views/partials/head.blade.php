@@ -13,3 +13,7 @@
 <script defer src="https://use.fontawesome.com/releases/v5.4.1/js/all.js" integrity="sha384-L469/ELG4Bg9sDQbl0hvjMq8pOcqFgkSpwhwnslzvVVGpDjYJ6wJJyYjvG3u8XW7" crossorigin="anonymous"></script>
 
 <link rel="shortcut icon" href="/images/icono.ico">
+
+<meta name="keywords" content="publicidad la plata marketing digital diario clasificados propaganda publicidades publicidad en restaurantes publicidad en bares publicidad argentina">
+<meta name="description" content="">
+<meta name="author" content="">
